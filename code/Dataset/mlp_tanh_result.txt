@@ -1,0 +1,48 @@
+hidden layers: (12, 12, 12), iterations: 500, activation fun: tanh 
+accurracy of training at: 79.2857142857 
+accurracy of testing at: 68.3673469388 
+accuracy score: 68.3673469388 
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.91      0.88       100
+         1.0       0.46      0.57      0.51        37
+         2.0       0.48      0.56      0.52        25
+         3.0       0.55      0.24      0.33        25
+         4.0       0.50      0.22      0.31         9
+
+   micro avg       0.68      0.68      0.68       196
+   macro avg       0.57      0.50      0.51       196
+weighted avg       0.68      0.68      0.67       196
+
+hidden layers: (12, 12, 12, 12, 12), iterations: 1000, activation fun: tanh 
+accurracy of training at: 96.5714285714 
+accurracy of testing at: 93.3673469388 
+accuracy score: 93.3673469388 
+              precision    recall  f1-score   support
+
+         0.0       0.99      0.99      0.99       100
+         1.0       0.90      0.95      0.92        37
+         2.0       0.92      0.96      0.94        25
+         3.0       0.83      0.76      0.79        25
+         4.0       0.75      0.67      0.71         9
+
+   micro avg       0.93      0.93      0.93       196
+   macro avg       0.88      0.86      0.87       196
+weighted avg       0.93      0.93      0.93       196
+
+hidden layers: (12, 12, 12), iterations: 1000, activation fun: tanh 
+accurracy of training at: 89.0 
+accurracy of testing at: 81.6326530612 
+accuracy score: 81.6326530612 
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.96      0.94       100
+         1.0       0.74      0.62      0.68        37
+         2.0       0.69      0.72      0.71        25
+         3.0       0.61      0.68      0.64        25
+         4.0       0.86      0.67      0.75         9
+
+   micro avg       0.82      0.82      0.82       196
+   macro avg       0.76      0.73      0.74       196
+weighted avg       0.82      0.82      0.81       196
+

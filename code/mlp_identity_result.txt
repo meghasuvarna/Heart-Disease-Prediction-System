@@ -1,0 +1,32 @@
+hidden layers: (12, 12, 12), iterations: 500, activation fun: identity 
+accurracy of training at: 64.0 
+accurracy of testing at: 58.1632653061 
+accuracy score: 58.1632653061 
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.92      0.80       100
+         1.0       0.32      0.22      0.26        37
+         2.0       0.35      0.24      0.29        25
+         3.0       0.35      0.28      0.31        25
+         4.0       0.33      0.11      0.17         9
+
+   micro avg       0.58      0.58      0.58       196
+   macro avg       0.41      0.35      0.36       196
+weighted avg       0.52      0.58      0.54       196
+
+hidden layers: (12, 12, 12, 12), iterations: 500, activation fun: identity 
+accurracy of training at: 64.7142857143 
+accurracy of testing at: 57.1428571429 
+accuracy score: 57.1428571429 
+              precision    recall  f1-score   support
+
+         0.0       0.71      0.91      0.80       100
+         1.0       0.28      0.22      0.24        37
+         2.0       0.36      0.20      0.26        25
+         3.0       0.29      0.28      0.29        25
+         4.0       1.00      0.11      0.20         9
+
+   micro avg       0.57      0.57      0.57       196
+   macro avg       0.53      0.34      0.36       196
+weighted avg       0.54      0.57      0.53       196
+

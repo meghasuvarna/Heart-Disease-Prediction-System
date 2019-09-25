@@ -1,0 +1,48 @@
+hidden layers: (12, 12, 12), iterations: 3000, activation fun: relu 
+accurracy of training at: 96.4285714286 
+accurracy of testing at: 95.4081632653 
+accuracy score: 95.4081632653 
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.97      0.97       100
+         1.0       1.00      0.92      0.96        37
+         2.0       0.89      0.96      0.92        25
+         3.0       0.85      0.92      0.88        25
+         4.0       1.00      1.00      1.00         9
+
+   micro avg       0.95      0.95      0.95       196
+   macro avg       0.94      0.95      0.95       196
+weighted avg       0.96      0.95      0.95       196
+
+hidden layers: (12, 12, 12), iterations: 500, activation fun: relu 
+accurracy of training at: 79.8571428571 
+accurracy of testing at: 72.9591836735 
+accuracy score: 72.9591836735 
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.93      0.91       100
+         1.0       0.60      0.65      0.62        37
+         2.0       0.62      0.52      0.57        25
+         3.0       0.41      0.36      0.38        25
+         4.0       0.50      0.44      0.47         9
+
+   micro avg       0.73      0.73      0.73       196
+   macro avg       0.60      0.58      0.59       196
+weighted avg       0.72      0.73      0.72       196
+
+hidden layers: (12, 12, 12, 12, 12), iterations: 2000, activation fun: relu 
+accurracy of training at: 94.7142857143 
+accurracy of testing at: 90.306122449 
+accuracy score: 90.306122449 
+              precision    recall  f1-score   support
+
+         0.0       0.99      1.00      1.00       100
+         1.0       0.79      0.84      0.82        37
+         2.0       0.77      0.68      0.72        25
+         3.0       0.82      0.92      0.87        25
+         4.0       1.00      0.67      0.80         9
+
+   micro avg       0.90      0.90      0.90       196
+   macro avg       0.88      0.82      0.84       196
+weighted avg       0.90      0.90      0.90       196
+
